@@ -18,7 +18,7 @@ const Navigation = () => {
   useEffect(() => {
     setConnected(isConnected);
   }, [isConnected]);
-
+  
   return (
     <nav className="main-nav">
       <Link className="main-nav-logo" to={"/"}>
