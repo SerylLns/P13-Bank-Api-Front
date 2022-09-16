@@ -8,7 +8,7 @@ import localforage from "localforage";
 import { useDispatch } from "react-redux";
 import { setUser } from "./features/userSlice";
 import Profil from "./components/Profil";
-import { getUserProfile } from "./userApi";
+import { getUserProfile } from "./services/userApi";
 
 function App() {
   const dispatch = useDispatch();

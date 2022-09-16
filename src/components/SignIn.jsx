@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { setUser } from "../features/userSlice";
 import { useNavigate } from "react-router-dom";
-import { loginUser } from "../userApi";
+import { loginUser } from "../services/userApi";
 
 const SignIn = () => {
   const [email, setEmail] = useState("tony@stark.com");

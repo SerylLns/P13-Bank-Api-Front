@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setProfil } from "../features/userSlice";
-import { setUserProfil } from "../userApi";
+import { setUserProfil } from "../services/userApi";
 
 const Profil = () => {
   const [editMode, setEditMode] = useState(false);
