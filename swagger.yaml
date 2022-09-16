@@ -349,7 +349,7 @@ definitions:
       id :
         type : integer
         description : id of transaction
-      category :
+      note :
         type : string
         description: notes of transaction
   EditTransactionNote :
